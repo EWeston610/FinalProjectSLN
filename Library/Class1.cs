@@ -304,13 +304,13 @@
         return totalScore;
     }
 
-    public static int CountMeldScore(int[] cleanMelds, int[] dirtyMelds)
+    public static int CountMeldScore(int[] cleanMelds, int[] dirtyMelds) 
     {
         int meldScore = 0;
         for (int i = 0; i < 14; i++)
         {
-            meldScore += cleanMelds[i] * 500;
-            meldScore += dirtyMelds[i] * 300;
+            meldScore += cleanMelds[i] * 500; 
+            meldScore += dirtyMelds[i] * 300; 
         }
         return meldScore;
     }

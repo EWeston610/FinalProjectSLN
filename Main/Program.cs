@@ -48,6 +48,7 @@ for (int i = 0; i < playerNum; i++)
 }
 int playerTurn = 0;
 //Begin play
+
 while (true)
 {
     Console.Clear();
